@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Normal Parallax</title>
+  <style>
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+.content {
+	height: 1500px;
+	background-color: black;
+
+}
+
+.parallax-bg{
+	padding: 300px 0;
+	background-image: url(img/1.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.parallax-bg h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 70px;
+	font-family: Arial;
+}
+.parallax-bg1{
+	padding: 300px 0;
+	background-image: url(img/2.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.parallax-bg1 h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 70px;
+	font-family: Arial;
+}
+.parallax-bg2{
+	padding: 300px 0;
+	background-image: url(img/3.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.parallax-bg2 h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 70px;
+	font-family: Arial;
+}
+
+  </style>
+</head>
+<body>
+
+	<div class="parallax-bg speed_5">
+		<h1>Hi Buddy</h1>
+	</div>
+
+	<div class="parallax-bg1 speed_10">
+		<h1>I am Parallaxo</h1>
+	</div>
+
+	<div class="parallax-bg2 speed_20">
+		<h1>Bye Bye Geeks</h1>
+	</div>
+
+  <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="js/parallaxo1.js" type="text/javascript"></script>
+  <script src="js/parallaxo2.js" type="text/javascript"></script>  
+</body>
+</html>

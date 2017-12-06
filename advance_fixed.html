@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advance Fixed</title>
+  <link rel="stylesheet" href="css/parallaxo.css">
+  <style>
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+.content {
+	height: 1500px;
+	background-color: black;
+}
+.bg1{
+	background-image: url(img/1.jpg);
+	background-size:cover;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.bg2{
+	background-image: url(img/2.jpg);
+	background-size:cover;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.bg3{
+	background-image: url(img/3.jpg);
+	background-size:cover;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.bg4{
+	background-image: url(img/4.jpg);
+	background-size:cover;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+h2 {
+  line-height: 100vh;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+  </style>
+</head>
+<body data-animation="fixed">
+
+	<section class="v_layer visible">
+		<div class="bg1">
+			<h2>Hi Buddy</h2>
+		</div>
+	</section>
+
+	<section class="v_layer">
+		<div class="bg2">
+			<h2>I am a parallax scrolling framework</h2>
+		</div>
+	</section>
+
+	<section class="v_layer">
+		<div class="bg3">
+			<h2>My name is Parallaxo</h2>
+		</div>
+	</section>
+
+	<section class="v_layer">
+		<div class="bg4">
+			<h2>Bye Bye Geeks</h2>
+		</div>
+	</section>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.min.js"></script>
+<script src="js/parallaxo1.js"></script>
+<script src="js/parallaxo2.js"></script>
+
+</body>
+</html>
